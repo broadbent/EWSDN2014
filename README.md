@@ -1,11 +1,9 @@
-ACM SIGCOMM 2012 Web Site
+EWSDN 2014 Web Site
 =========================
 
-PHP/HTML/CSS/JS code for the ACM SIGCOMM 2012 website.
+PHP/HTML/CSS/JS code for the EWSDN 2014 website.
 
-You are welcome to reuse and adapt this code for your conference. It is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. Please see http://creativecommons.org/licenses/by-nc-sa/3.0/. Source code is available at https://github.com/ryanrhymes/SIGCOMM2012.
-
-Under the license, you acknowledge "ACM SIGCOMM 2012" as the source and you link to http://conferences.sigcomm.org/sigcomm/2012/. You will also share any changes and improvements to this code openly. The best way to do so is to fork our github repository at https://github.com/ryanrhymes/SIGCOMM2012.
+This code is adapted from the [ACM SIGCOMM 2012](https://github.com/ryanrhymes/SIGCOMM2012) repository. It is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 What's in the various subdirectories:
 
@@ -14,8 +12,6 @@ What's in the various subdirectories:
 * `images`		our images (logos, etc.)
 * `include`		PHP partials and code
 * `js`			Javascript, only edit script.js, the rest is from vendors
-* `workshops`	workshop CFPs in various formats stuff
-* `paper`		PDF copies of the various papers - not part of the repository due to copyright issues
 * `scripts`		various helper scripts to check and compile the site
 
 This site uses a bunch of open javascript libraries. You will want to use their latest versions:
