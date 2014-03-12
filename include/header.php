@@ -15,14 +15,14 @@
 
 <!DOCTYPE HTML>
 
-<html manifest="sigcomm.appcache">
+<html>
 <head>
 	<meta charset="iso-8859-1">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="copyright" content="The ACM SIGCOMM 2012 Website by ACM SIGCOMM 2012 is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." />
+	<meta name="copyright" content="The EWSDN 2014 Website is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." />
 
 	<title>
 <?php
@@ -37,11 +37,11 @@
         echo("$filename - ");
     }
 ?>
-	ACM SIGCOMM 2012
+	EWSDN 2014
     </title>
 
 	<link rel="apple-touch-icon-precomposed" href="images/icon.png" />
-	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="icon" type="img/ico" href="images/favicon.ico" />
 	<link rel="stylesheet" href="css/jquery.mobile.min.css" />
 	<link rel="stylesheet" href="css/jqm-docs.css" />
 	<link rel="stylesheet" href="css/style.css" />
@@ -76,7 +76,7 @@
 <div data-role="page" id="jqm-home" class="type-home">
 
 	<div class="header" data-role="header" data-theme="c" data-position="inline">
-		<div><a href="index.php"><img src="images/helsinki-logo-vert.png" style="height:40px" alt="ACM SIGCOMM 2012, August 13-17, 2012, Helsinki, Finland"></a></div>
+		<div><a href="index.php"><img src="images/logo.png" style="height:40px" alt="EWSDN 2014, September 1-3, 2014, Budapest, Hungary"></a></div>
 		<a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.navselected').position().top)" class="ui-btn-right" data-icon="grid">Site Menu</a>
 	</div>
 

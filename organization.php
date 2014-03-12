@@ -1,75 +1,63 @@
 <?php
-        $page_title="Organization Committee";
+        $page_title="Organizing Committee";
         include("include/header.php");
 ?>
 
-<h2 class="hcls">Organization Committee</h2>
+<h2 class="hcls">Organizing Committee</h2>
 
 <ul data-role="listview" data-inset="true" data-theme="d" data-content-theme="d">
 
-	<li data-role="list-divider">General Chairs</li>
+	<li data-role="list-divider">General Chair</li>
 	<?php
-		add_listitem("Lars Eggert", "NetApp, Germany", "http://eggert.org/");
-		add_listitem("J&ouml;rg Ott", "Aalto University, Finland", "http://www.netlab.tkk.fi/~jo/");
+		add_listitem("Hagen Woesner", "BISDN, Germany", "");
 	?>
 
-	<li data-role="list-divider">TPC Chairs</li>
+	<li data-role="list-divider">Technical Program Committee Co-Chairs</li>
 	<?php
-		add_listitem("Venkat Padmanabhan", "Microsoft Research, India", "http://research.microsoft.com/en-us/um/people/padmanab/");
-		add_listitem("George Varghese", "UCSD, USA", "http://cseweb.ucsd.edu/~varghese/");
+		add_listitem("Holger Karl", "University Paderborn, Germany", "");
+		add_listitem("R&oacute;bert Szab&oacute;", "Ericsson, Hungary", "");
 	?>
-	
-	<li data-role="list-divider">Local Arrangements Chairs</li>
+
+	<li data-role="list-divider">Industrial Track Chair</li>
 	<?php
-		add_listitem("Jussi Kangasharju", "University of Helsinki, Finland", "http://www.cs.helsinki.fi/u/jakangas/");
-		add_listitem("Jukka Manner", "Aalto University, Finland", "http://www.netlab.tkk.fi/~jmanner/");
+		add_listitem("Diego R. Lopez", "Telefonica I+D, Spain", "");
 	?>
-		
-	<li data-role="list-divider">Registration Chair and Treasurer</li>
-	<?php
-		add_listitem("Joe Touch", "USC/ISI, USA", "http://www.isi.edu/touch/");
-	?>
-	
-	<li data-role="list-divider">Workshops Chairs</li>
-	<?php
-		add_listitem("Dina Katabi", "MIT, USA", "http://nms.csail.mit.edu/~dina/");
-		add_listitem("Jitendra Padhye", "Microsoft Research, USA", "http://research.microsoft.com/en-us/um/people/padhye/");
-	?>
-	
-	<li data-role="list-divider">Poster and Demo Chairs</li>
-	<?php
-		add_listitem("Kevin Almeroth", "University of California, Santa Barbara, USA", "http://www.cs.ucsb.edu/~almeroth/");
-		add_listitem("Colin Perkins", "University of Glasgow, UK", "http://csperkins.org/");
-	?>
-	
-	<li data-role="list-divider">Publication Chair</li>
-	<?php
-		add_listitem("Andrea Passarella", "CNR IIT, Italy", "http://cnd.iit.cnr.it/andrea/");
-	?>
-	
+
 	<li data-role="list-divider">Publicity Chair</li>
 	<?php
-		add_listitem("Ryuji Wakikawa", "Toyota ITC, USA/Japan", "http://www.wakikawa.net/ryuji.html");
+		add_listitem("Stefan Schmid", "TU Berlin / Telekom Innovation Laboratories, Germany", "");
+		add_listitem("Pontus Sk&ouml;ldstr&ouml;m", "T Acreo AB, Sweden", "");
 	?>
-	
-	<li data-role="list-divider">Travel Grant Chairs</li>
+
+	<li data-role="list-divider">Workshop Operations Chair and Web Chair</li>
 	<?php
-		add_listitem("Marcelo Bagnulo", "Universidad Carlos III de Madrid, Spain", "http://www.it.uc3m.es/marcelo/");
-		add_listitem("Polly Huang", "National Taiwan University, Taiwan", "http://cc.ee.ntu.edu.tw/~phuang/");
-		add_listitem("Sharon Goldberg", "Boston University, USA", "http://www.cs.bu.edu/~goldbe/");
+		add_listitem("Mario Druse", "EICT, Germany", "");
 	?>
-	
-	<li data-role="list-divider">Web Chair</li>
+
+	<li data-role="list-divider">Local Organization Chair</li>
 	<?php
-		add_listitem("Liang Wang", "University of Helsinki, Finland", "http://www.cs.helsinki.fi/u/lxwang/");
+		add_listitem("Val&eacute;ria Moln&aacute;r", "BME, Hungary", "");
 	?>
 	
-	<li data-role="list-divider">Conference Coordinator</li>
+	<li data-role="list-divider">Demo and Exhibition Chair</li>
 	<?php
-		add_listitem("Jaudelice de Oliveira", "Drexel University, USA", "http://www.ece.drexel.edu/deOliveira/");
+		add_listitem("Bal&aacute;zs Sonkoly", "BME, Hungary", "");
 	?>
-	
+
+	<li data-role="list-divider">Steering Committee</li>
+	<?php
+		add_listitem("Andreas Gladisch", "Deutsche Telekom Laboratories, Germany", "");
+		add_listitem("Holger Karl", "University Paderborn, Germany", "");
+		add_listitem("Diego R. Lopez", "Telefonica I+D, Spain", "");
+		add_listitem("Kostas Pentikousis", "EICT, Germany", "");
+		add_listitem("Elio Salvadori", "CREATE-NET, Italy", "");
+		add_listitem("Stefano Salsano", "Univ. Tor Vergata, Italy", "");
+		add_listitem("R&oacute;bert Szab&oacute;", "Ericsson, Hungary", "");
+		add_listitem("Hagen Woesner", "BISDN, Germany", "");
+	?>
+
 </ul>
+
 
 <?php
     include ("include/footer.php");

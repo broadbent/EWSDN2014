@@ -170,7 +170,6 @@ ul li {
 img.conflogo {
 	padding-bottom:2em;
 	display:block;
-	max-width: 200px;
 }
 
 .center {
@@ -229,7 +228,7 @@ em {
 
 .hcls {
 	padding: 0.3em;
-	background: #b1c918;
+	background: rgb(53, 155, 255);
 	color: white;
 	font-weight: inherit;
 	letter-spacing:1px;
@@ -389,11 +388,11 @@ div.fees {
 }
 
 #jqm-home .ui-listview-inset .navselected {
-    background-color: #ffcc00;
+    background-color: rgb(242, 242, 242);
 }
 
 #jqm-home .headerselected {
-    background-color: #ffeb9d;
+    background-color: rgb(183, 220, 255);
 }
 
 .subnav-a .ui-btn-text, .subnav-b .ui-btn-text, .subnav-c .ui-btn-text {
@@ -419,6 +418,12 @@ div.fees {
 #jqm-home .ui-li-heading, .ui-li-desc {
 	white-space: normal;
 	margin: 0;
+}
+
+#jqm-home .ui-li-desc em {
+	color: inherit;
+	font-weight: normal;
+	font-style: italic;
 }
 
 #jqm-home .ui-li-desc em {
@@ -490,12 +495,12 @@ div.fees {
 		display: none;
 	}
 	.content-secondary {
-		width: 30%;
+		width: 25%;
 		padding-right:6%;
 		margin: 30px 0 20px 5%;
 	}
 	.content-primary {
-		width: 50%;
+		width: 55%;
 		margin-right: 3%;
 		padding-right: 3%;
 	}

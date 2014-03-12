@@ -5,47 +5,45 @@
 
 <h2 class="hcls">Call for Papers</h2>
 
-<p>The SIGCOMM 2012 conference seeks papers describing significant research contributions to the field of computer and data communication networks. We invite submissions on a wide range of networking research, including, but not limited to:
-</p>
+<p>Software Defined Networking is undoubtedly one of the chief trends in the ICT area. In the past years we have seen all big players in the networking arena starting to ride the SDN. Standardization work is actively ongoing in the Open Networking Forum (ONF), the Internet Engineering Task Force (IETF) (e.g., I2RS, freshly formed Service Function Chaining (SFC) workgroup or recent initiatives to form VNFPool), while the European Telecommunications Standards Institute (ETSI) just released several group specifications on Network Functions Virtualization (NFV). On top of the several exiting open-source SDN controllers, OpenDaylight reached significant momentum last year and arrived to its first official release in February 2014.</p>
+
+<p>One goal of the workshop is to bring together industry and academia on the topics of SDN; in particular the workshop will feature an "industry forum", i.e., a session with presentations of key industrial players.</p>
+
+<p><b>Format:</b> A4 format, up to 6 pages, double column, 10pt font</p>
+<p><b>Notification of acceptance:</b> 1 July 2014</p>
+<p><b>Camera-ready papers:</b> 1 August 2014</p>
+<p><b>Please submit via the <a href="https://www.easychair.org/conferences/?conf=ewsdn2014">EasyChair submission system</a></b></p>
+<p><b>Contact:</b> <a href="mailto:ewsdn2014@easychair.org">ewsdn2014@easychair.org</a></p>
+
+<h2 class="hcls">Contributions to the Workshop</h2>
+
+<p>We are interested in both papers showing consolidated results and in position papers bringing up innovative ideas. Topics for contributions include, but are not limited to, the following:</p>
 
 <ul>
-<li>Design, implementation, and analysis of network architectures and algorithms 
-<li>Economic aspects of the Internet
-<li>Enterprise, datacenter, and storage area networks
-<li>Experimental results from operational networks or network applications
-<li>Fault-tolerance, reliability, and troubleshooting
-<li>Insights into network and traffic characteristics
-<li>Network management and traffic engineering
-<li>Network security, vulnerability, and defenses
-<li>Network, transport, and application-layer protocols
-<li>Networking issues for emerging applications
-<li>Operating system and host support for networking
-<li>Peer-to-peer, overlay, and content distribution networks
-<li>Resource management, quality of service, and signaling
-<li>Routing, switching, and addressing
-<li>Technical aspects of online social networks
-<li>Techniques for network measurement and simulation
-<li>Wireless, mobile, ad-hoc, and sensor networks
-
+	<li>Virtualization architectures</li>
+	<li>Forwarding abstractions, APIs, object models</li>
+	<li>Network Function Virtualization and SDN, network virtualization techniques</li>
+	<li>Optical extensions to OpenFlow, SDN</li>
+	<li>Wireless integration, characterization of wireless interfaces, flows, handover support</li>
+	<li>Evolved packet core, LTE support for OpenFlow</li>
+	<li>New controller architectures, APIs and northbound interfaces</li>
+	<li>Interoperation of cloud architectures and SDN</li>
+	<li>New switch architectures supporting SDN</li>
+	<li>New networking paradigms like Information Centric Networks (ICN) and relation to SDN</li>
+	<li>Security implications of SDN and security enhancements to SDN, as well as new security services enabled by SDN</li>
+	<li>Carrier-grade SDN architectures and equipment</li>
+	<li>Practical experiments on SDN/Cloud/OpenFlow</li>
+	<li>Testbeds</li>
+	<li>Identification of use cases for SDN, SDN-related business models, strategic role of SDN in network evolution</li>
+	<li>Regulatory aspects around network virtualization</li>
+	<li>SDN frameworks and tools, SDN-based equipment: controllers, switches, integrated development environment, testing and debugging environment.</li>
 </ul>
 
-<h2 class="hcls">Submissions</h2>
-
-<p>
-SIGCOMM is a highly selective conference where full papers typically report novel results firmly substantiated by experimentation, simulation, or analysis. Submissions can be up to 14 pages in length, in two-column 10pt format. . The submission instructions will be posted here in some time. Note that accepted camera-ready papers will be 12 pages in length, in two-column format with 9pt font.
-</p>
-<p>
-This year, authors will have the option of submitting a short rebuttal of the reviews of their paper after the first round of reviewing has concluded. The goal of the rebuttal process is to allow authors the opportunity to correct misperceptions, if any, regarding their paper. Note that submitting a rebuttal is entirely optional.
-</p>
-
-<p>In addition to the main conference, SIGCOMM 2012 will have a series of co-located workshops, a poster and demo session, a travel grant program, and conference best paper and SIGCOMM awards.
-</p>
-
-<p>Download this call as <a href="cfp.pdf" rel="external">a PDF</a>.</p>
+<h2 class="hcls">Workshop Proceedings</h2>
+<p>Submission format is IEEE Conference Style in A4 format, up to 6 pages, double column, 10pt font. Please use <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">standard IEEE conference proceedings templates in A4 format</a>. EWSDN paper submission will be managed using the <a href="https://www.easychair.org/conferences/?conf=ewsdn2014">EasyChair submission system.</a></p>
+<p>EWSDN workshop proceedings will be submitted for indexing and publication to IEEE Xplore. Previous workshop proceedings are also available for <a href="http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=EWSDN+2012">EWSDN 2012</a> and <a href="http://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=EWSDN+2013">EWSDN 2013</a>.</p>
 
 <h2 class="hcls">Important Dates</h2>
-<p>All times noted are per Pacific Standard Time (PST) until 10 Mar 2012 and per Pacific Daylight Time (PDT) from 11 Mar 2012 onwards. Please be sure to translate to your local time accordingly.
-</p>
 <?php
         include("include/dates.html");
 ?>

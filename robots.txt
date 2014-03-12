@@ -1,8 +1,5 @@
-Sitemap: http://conferences.sigcomm.org/sigcomm/2012/sitemap.xml
-
 User-agent: *
 
 Disallow: /css
 Disallow: /include
 Disallow: /js
-Disallow: /paper
