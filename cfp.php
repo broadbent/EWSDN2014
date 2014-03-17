@@ -10,10 +10,14 @@
 <p>One goal of the workshop is to bring together industry and academia on the topics of SDN; in particular the workshop will feature an "industry forum", i.e., a session with presentations of key industrial players.</p>
 
 <p><b>Format:</b> A4 format, up to 6 pages, double column, 10pt font</p>
+<p><b>Paper registration:</b> 5 May 2014</p>
+<p><b>Paper submission:</b> 10 May 2014</p>
 <p><b>Notification of acceptance:</b> 1 July 2014</p>
 <p><b>Camera-ready papers:</b> 1 August 2014</p>
 <p><b>Please submit via the <a href="https://www.easychair.org/conferences/?conf=ewsdn2014">EasyChair submission system</a></b></p>
 <p><b>Contact:</b> <a href="mailto:ewsdn2014@easychair.org">ewsdn2014@easychair.org</a></p>
+
+<a href="ewsdn2014-cfp.pdf" rel="external" data-role="button" class="button">Download the Call for Papers</a>
 
 <h2 class="hcls">Contributions to the Workshop</h2>
 

@@ -23,6 +23,10 @@
     E-mail: <a href='mailto:ewsdn@eict.de'>ewsdn@eict.de</a>
 </p>
 
+<p>
+    <a href="mailto:ewsdn@eict.de" data-role="button" class="button">Contact the Conference Office</a>
+</p>
+
 <?php
     include ("include/footer.php");
 ?>
